@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(209, 214, 255);
+}
+a{
+    color: rgb(0, 71, 202);
+}
+a:hover{
+    color: rgb(28, 170, 217);
+}
+h1{
+    font-family: "Lucida Console", Courier, monospace;
+    text-align: center;
+}
+h2{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    background-color: rgb(130, 137, 238);
+}
+p, ul, dl, ol, figcaption{
+    font-family: Arial, sans-serif;
+}
+b#destaque{
+    text-decoration: underline;
+}
+p.lingua{
+    font-style: italic;
+}
+p.resumo, p.lingua{
+    text-align: justify;
+}
+dl dt{
+    font-weight: bold;
+}
+dl dd#instituto{
+    font-style: oblique;
+}
+ol li{
+    padding:5px;
+}
+figure.foto{
+    position: absolute;
+    right:0px;
+}
+figure.foto img{
+    border-radius: 50%;
+}
+figure.foto figcaption{
+    text-align: center;
+}
+p#footer{
+    text-align: center;
+}

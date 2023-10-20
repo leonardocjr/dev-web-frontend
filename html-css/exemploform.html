@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario para Teste</title>
+    </head>
+    <form>
+        <label for="username">Nome completo:</label><br>
+        <input type="text" id="username" name="username" required><br>
+        <label for="age">Idade:</label><br>
+        <input type="number" id="age" name="age" min="18" max="120" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Insira um e-mail válido" required><br>
+        <label for="conteudo">Conteúdo de maior interesse:</label><br>
+        <select name="conteudo" id="conteudo">
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="js" selected>JavaScript</option>
+        </select><br>
+        <label for="opiniao">Deixe sua opinião:</label><br>
+        <textarea id="opiniao" name="opiniao" rows="5" cols="30"></textarea><br>
+        <label for="pwd">Senha:</label><br>
+        <input type="password" id="pwd" name="pwd" required><br><br>
+        <input type="submit" value="Enviar">
+    </form>
+</html>

@@ -1,0 +1,6 @@
+[submodule "projet-1"]
+	path = projet-1
+	url = https://github.com/leonardocjr/seagate
+[submodule "projeto-1"]
+	path = projeto-1
+	url = https://github.com/leonardocjr/seagate

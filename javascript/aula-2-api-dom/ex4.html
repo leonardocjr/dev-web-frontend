@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex4 - Aula 2</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        var paragrafo = document.createElement("p");
+        paragrafo.textContent = "Número de cliques: 0";
+
+        var contador = 0;
+        function conta() {
+            contador++;
+            paragrafo.textContent = "Número de cliques: " + contador;
+        };
+        document.body.appendChild(paragrafo);
+    </script>
+    <button onclick="conta()">Clique aqui</button>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex2 - Aula 2</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        var lista = document.createElement("ul");
+        var itens = ["1 da lista", "2 da lista", "3 da lista", "4 da lista", "5 da lista"];
+        for (var i = 0; i < itens.length; i++) {
+            var item = document.createElement("li");
+            var texto = document.createTextNode(itens[i]);
+            item.appendChild(texto);
+            lista.appendChild(item);
+        }
+        document.body.appendChild(lista);
+    </script>
+</body>
+
+</html>

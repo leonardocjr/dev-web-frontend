@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex5 - Aula 2</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        var paragrafo = document.createElement("p");
+        paragrafo.textContent = "Número de caracteres: 0";
+        function contar() {
+            paragrafo.textContent = "Número de caracteres: " + document.getElementById("entrada").value.length;
+        };
+        document.body.appendChild(paragrafo);
+    </script>
+    <input type="text" id="entrada" oninput="contar()"></input>
+</body>
+
+</html>
